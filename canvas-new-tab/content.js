@@ -1,5 +1,5 @@
 setInterval(() => {
-  document.querySelectorAll("a").forEach((aElement) => {
+  document.querySelectorAll("a.fOyUs_bGBk").forEach((aElement) => {
     aElement.setAttribute("target", "_blank")
   });
 }, 1000);
