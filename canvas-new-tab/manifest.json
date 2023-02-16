@@ -1,0 +1,18 @@
+{
+  "name": "Canvas Open Links in New Tab",
+  "description": "Opens Canvas links in new tag, so that when it's pinned, the main page will remain pinned.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.psu.instructure.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "permissions": []
+}
